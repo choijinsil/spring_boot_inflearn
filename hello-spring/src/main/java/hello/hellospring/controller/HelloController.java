@@ -37,6 +37,11 @@ public class HelloController {
 
 	}
 
+	@GetMapping("test")
+	public String test() {
+		return "test";
+	}
+
 	static class Hello{
 		private String name;
 
