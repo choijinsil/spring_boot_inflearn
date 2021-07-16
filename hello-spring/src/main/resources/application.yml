@@ -6,3 +6,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: none
+---
+spring:
+  profiles:
+    active: "dev"
